@@ -4,7 +4,7 @@
 
 Portfolio do conteudo que foi executado durante a imersão Dev da Alura.<br>
 
-<img src="portfolio.jpg">
+<img src="./img/portfolio.jpg">
 
 ## Como acessar
 
