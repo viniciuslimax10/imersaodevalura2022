@@ -4,7 +4,7 @@
 
 Portfolio do conteudo que foi executado durante a imersão Dev da Alura.<br>
 
-<img alt="Example" title="Example" src="portfolio.jpg" />
+<img alt="Example" title="Example" src="https://github.com/viniciuslimax10/imersaodevalura2022/blob/main/img/portfolio.JPG?raw=true" />
 
 ## Como acessar
 
