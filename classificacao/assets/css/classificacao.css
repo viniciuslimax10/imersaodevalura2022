@@ -1,0 +1,106 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 1080px;
+  background-image: url("../img/csgo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: center;
+  color: #167bf7;
+}
+img {
+  width: 60px;
+  height: 60px;
+}
+th,
+tr,
+td {
+  background: white;
+  border: solid 3px #232b2b;
+  color: #232b2b;
+  font-weight: bold;
+}
+
+input {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  width: 350px;
+  height: 34px;
+  margin: 10px;
+  padding: 8px;
+  border: 1px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
+  background-color: #0e1921;
+}
+
+.button {
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  background: #167bf7;
+}
+
+.operacoes {
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: #167bf7;
+}
+.operacoes:hover {
+  box-shadow: 1px 1px 5px 1px #273f6d;
+}
+.operacoes:active {
+  transition: 0s;
+  background-color: #273f6d;
+  transform: translateY(2px);
+}
+
+.btnReiniciar {
+  margin-top: 10px;
+}

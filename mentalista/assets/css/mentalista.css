@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://colunastortas.files.wordpress.com/2013/04/thementalistpd.jpg");
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+#reiniciar {
+  display: none;
+}
+
+.page-title {
+  font-size: 3.5em;
+  color: #ffffff;
+  margin: 0 0 5px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.page-subtitle {
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.page-logo {
+  width: 200px;
+  padding-bottom: 20px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input[type="number"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Classificação
+    </title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/classificacao.css">
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+    <div class="adicionarEquipes">
+        <input id="nomeEquipe" placeholder="Insira o nome do equipe">
+        <input id="iconeEquipe" placeholder="Insira o endereço do icone da equipe">
+        <button class="button" onClick="adicionarEquipe()">Adicionar</button>
+    </div>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Ícone</th>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Total de Pontos</th>
+                <th colspan="2">Operações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+    <div class="btnReiniciar">
+        <button class="button" onClick="reiniciarPontuacao()">Reiniciar Pontuação</button>
+    </div>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
